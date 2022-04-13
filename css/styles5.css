@@ -1,0 +1,28 @@
+.flex-conteiner{
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: blue;
+    color: aqua;
+    /*altura do conteiner*/
+    min-height: 97vh;
+    /*ativar o FlexBox*/
+    display: flex;
+    /*com wrap os conteiner são quebrados nas linhas */
+    gap: 40px;
+    /*igual o row-reverse, mas de baixo para cima*/
+    align-items: center;
+    /*junção entre flex-direction r flex-wrap*/
+    flex-flow: column;
+}
+
+.flex-item{
+   background-color: violet;
+   /*tamanho dos elementos*/
+   flex-grow: 150px;
+   text-align: center;
+}
+
+/*criar mais de uma classe */
+.item2{
+    flex-basis: 200px;
+}
