@@ -1,0 +1,30 @@
+.flex-conteiner{
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: blue;
+    color: aqua;
+    /*altura do conteiner*/
+    min-height: 97vh;
+    /*ativar o FlexBox*/
+    display: flex;
+    /*com nowrap os conteiner não serão quebrados em linhas*/
+    flex-wrap: nowrap;
+    /*responsavel pelo espaçamento que vai ter entre as linhas*/
+    row-gap: 40px;
+    /*os conteiners irão ter a dieção da esquerda para a direita*/
+    flex-direction: row; 
+    /*alinhar os conteiner na horizontal, neste caso na esquerda*/
+    justify-content: start;
+}
+
+.flex-item{
+   background-color: violet;
+   /*tamanho minimo dos elemento*/
+   flex-shrink: 50px;
+   text-align: center;
+}
+
+/*criar mais de uma classe */
+.item3{
+    flex-basis: 200px;
+}

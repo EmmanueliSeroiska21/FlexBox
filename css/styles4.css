@@ -11,20 +11,20 @@
     flex-wrap: wrap;
     /*responsavel pelo espaçamento que vai ter entre as colunas/linhas*/
     gap: 40px;
-    /*realiza uma troca, colocando o primeiro conteneir em último e o último por primeiro*/
-    flex-direction: row-reverse; 
+    /*igual o row-reverse, mas de baixo para cima*/
+    flex-direction: column-reverse; 
     /*alinhar os conteiner na horizontal, neste caso no centro*/
-    justify-content: center;
+    justify-content: end;
 }
 
 .flex-item{
    background-color: violet;
    /*tamanho dos elementos*/
-   flex-basis: 100px;
+   flex-grow: 150px;
    text-align: center;
 }
 
-/*criar mais de uma  */
+/*criar mais de uma classe */
 .item2{
     flex-basis: 200px;
 }
