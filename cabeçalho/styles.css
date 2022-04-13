@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+}
+
+ul li{
+    display: inline-block;
+    margin-right: 30px;
+    list-style: none;
+    align-items: center;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    align-items: center;
+}
+
+.button{
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+    font-size: 20px;
+    border: 1px solid black;
+    background: transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
