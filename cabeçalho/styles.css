@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: flex;
 }
 
 header{
@@ -15,7 +16,7 @@ header{
 }
 
 ul li{
-    display: inline-block;
+    display: flex;
     margin-right: 30px;
     list-style: none;
     align-items: center;
@@ -26,6 +27,7 @@ ul li a{
     color: black;
     font-size: 20px;
     align-items: center;
+    display: flex;
 }
 
 .button{
@@ -37,6 +39,7 @@ ul li a{
     background: transparent;
     padding: 5px 10px;
     border-radius: 5px;
+    display: flex;
 }
 
 
