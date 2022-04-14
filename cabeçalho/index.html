@@ -6,18 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saveur Pâtisserie</title>
     <link rel="shortcut icon" type="imagex/png" href="./imagens/Logo.ico">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <style>
+        @font-face {
+            font-family: 'PlayfairDisplay';
+            src: url('fontes/PlayfairDisplay.ttf.ttf') format('truetype'), url('fontes/Inter.ttf.ttf') format('truetype'); 
+            font-weight: normal;
+            font-style: normal;
+        }
+    body {
+        font-family: 'Arial', Helvetica, sans-serif;
+    
+    }
+
+    h2{
+        font-family: 'PlayfairDisplay', Times, serif;
+        font-size: 3em;
+        font-weight: normal;
+    }
+
+    p{
+        font-family: 'PlayfairDisplay', Times, serif;
+        font-size: 3em;
+        font-weight: normal; 
+    }
+
+    .textoImgPrincipal{
+        font-family: 'PlayfairDisplay', Times, serif;
+        font-size: 3em;
+        font-weight: normal; 
+    }
+
+    </style>
 
 </head>
 <body>
-    <header>
-    
-       <ul>
-           <li><a href="#">Sobre Nós</a></li>
-           <li><a href="#">Cardapio</a></li>
-           <li><a href="#">Contato</a></li>
-           <li>(41) 98828-2324 | 3054-4332</li>
-           <li>Rua Hermes Fontes - Batell</li>
-       </ul>
+    <div class="headerFake">
+        
+        <div class="menu">
+            <ul>
+                <li><a href="SobreNos.html">Sobre Nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="cardapio.html">Cardapio</a></li>
+            </ul>
+        </div>
+        <div class="menu2">
+            <ul>
+                <li>(41) 98828-2324 | 3054-4332</li>
+                <li>Rua Hermes Fontes - Batel</li>
+            </ul>
+        </div>
+    </div>
 
-    </header>
+    <div class="home">
+        <a href="index.html">
+            <img src="Logo.png" alt="home" height="50" width="50">
+        </a>
+    </div>
+
+</body>
+</html>
